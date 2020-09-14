@@ -4,8 +4,8 @@
 
 ;; classify: Int -> Sym
 (define (classify x)
-  (cond [(= x 0)               'zero]
-        [(= x 1)                'one]
+  (cond [(= x 0)            'zero]
+        [(= x 1)             'one]
         [(= (modulo x 2) 0) 'even]
         [(= (modulo x 2) 1)  'odd]))
 
